@@ -1,35 +1,53 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: border-box;
 }
-nav{
+
+nav {
     background-image: url("mar.jpg");
+    width: 100%;
     height: 100vh;
     background-size: cover;
 }
-.navbar{
-    width: 100%;
-   display: flex;
-   justify-content: space-between;
-align-items: center;
+
+/* .navbar {
+    margin: 0 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     backdrop-filter: blur(5px);
-    box-shadow: 0px 0px 30px rgba(227,228,237,0.37);
-    border: 2px solid rgba(255,255,255,0.18);
-}
-.image{
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+} */
+ .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 5px solid rgba(255, 255, 255, 0.311);
+ }
+
+.image {
     height: 75px;
     width: 75px;
 }
-.items{
+
+.items {
     display: flex;
-    gap: 30px;
+    
+    
 }
-.items a{
-text-decoration: none;
-color: white;
+
+.items a {
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
 }
-.massage{
+
+.massage {
     height: 50px;
     width: 100%;
     display: flex;
@@ -38,57 +56,70 @@ color: white;
     position: relative;
     top: 55vh;
 }
-#text{
+
+#text {
     color: rgb(255, 254, 254);
-    font-family:cursive;
+    font-family: cursive;
     font-weight: bolder;
     font-size: 35px;
-    text-shadow: 0px 0px 10px cyan,0px 0px 20px cyan,0px 0px 40px cyan,0px 0px 80px cyan;
+    text-shadow: 0px 0px 10px cyan, 0px 0px 20px cyan, 0px 0px 40px cyan, 0px 0px 80px cyan;
 }
-.massage p span{
+
+.massage p span {
     color: rgb(203, 41, 41);
     font-family: fantasy;
     font-size: 45px;
 }
 .container{
     height: 450px;
-    margin: 60px 0 100px 200px;
-    width: 75%;
+    margin: 100px 0 100px 200px;
+    width: 70%;
     display: flex;
     justify-content: center;
     gap: 10px;
 }
-.container img{
+.container a{
+    
     width: 10%;
-    object-fit: cover;
+    
+    
+    transition: all ease-in-out 0.5s;
+}
+.container a img{
     height: 100%;
+    width: 100%;
+    object-fit: cover;
     border-radius: 10px;
     border: 2px solid cyan;
     box-shadow: 0px 0px 10px cyan;
-    transition: all ease-in-out 0.5s;
+    
 }
-body{
+body {
     background-color: rgb(18, 1, 1);
 }
-.container img:hover{
+
+.container a:hover {
     width: 25%;
 }
-main h2{
+
+main h2 {
     margin-top: 50px;
     margin-left: 50px;
 }
-.spidy{
+
+.spidy {
     height: 110vh;
     width: 100%;
     background-image: url("spdy.jpg");
     background-size: cover;
 }
-video{
+
+video {
     height: 500px;
     border-radius: 10px;
     border: 2px solid rgb(255, 255, 255);
     margin-top: 40vh;
     margin-left: 20px;
     box-shadow: 0px 0px 10px rgb(249, 94, 5),
-    0px 0px 20px rgb(249, 94, 5),0px 0px 40px rgb(249, 94, 5),0px 0px 80px rgb(249, 94, 5);
+        0px 0px 20px rgb(249, 94, 5), 0px 0px 40px rgb(249, 94, 5), 0px 0px 80px rgb(249, 94, 5);
 }
